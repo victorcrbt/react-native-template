@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'import', 'prettier'],
   rules: {
+    'react/require-default-props': 'off',
     'no-undef': 'off',
     'no-use-before-define': 'off',
     'no-shadow': 'off',
