@@ -24,6 +24,8 @@ declare module 'styled-components' {
     | 'normal';
 
   type TypographyProperties = {
+    'margin-bottom'?: string;
+    'text-align'?: 'left' | 'center' | 'right';
     'font-size': string;
     'font-weight': FontWeights;
   };

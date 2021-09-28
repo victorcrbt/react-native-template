@@ -1,13 +1,12 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components/native';
 
-import { defaultTheme } from '@styles/themes';
-
-import { SignInScreen } from '@screens/SignIn';
+import { defaultTheme } from './styles/themes';
+import { Navigation } from './navigation';
 
 const App = () => (
   <ThemeProvider theme={defaultTheme}>
-    <SignInScreen />
+    <Navigation />
   </ThemeProvider>
 );
 
