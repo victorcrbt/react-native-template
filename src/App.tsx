@@ -1,12 +1,14 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import { ThemeProvider } from 'styled-components/native';
 
-import { HelloWorld } from '@components/HelloWorld';
+import { defaultTheme } from '@styles/themes';
+
+import { SignInScreen } from '@screens/SignIn';
 
 const App = () => (
-  <SafeAreaView>
-    <HelloWorld />
-  </SafeAreaView>
+  <ThemeProvider theme={defaultTheme}>
+    <SignInScreen />
+  </ThemeProvider>
 );
 
 export default App;
