@@ -124,6 +124,8 @@ const defaultTheme: DefaultTheme = {
       'font-weight': 'normal',
     },
     h1: {
+      'margin-bottom': '16px',
+      'text-align': 'center',
       'font-size': '32px',
       'font-weight': 'bold',
     },
