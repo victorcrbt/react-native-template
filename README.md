@@ -1,7 +1,5 @@
 ## USAGE
 
----
-
 To start using the template, simply click the "**Use this template**" button:
 
 - [] add screenshot
@@ -34,8 +32,6 @@ npm run ios
 
 ## PATH ALIASES
 
----
-
 To add a new path alias, simply add the path to the `tsconfig.json` file, in the `paths` object following the pattern of the existing ones.
 
 The paths will be automatically mapped on the `babel.config.js` file.
@@ -44,8 +40,6 @@ After including a new alias, restart the metro bundler clearing the cache by run
 `yarn start --reset-cache` or `npm run start --reset-cache`.
 
 ## TODO
-
----
 
 - [] Implement state management lib.
 - [] Reorganize files and file names.
