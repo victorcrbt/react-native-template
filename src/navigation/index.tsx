@@ -1,11 +1,13 @@
 import React from 'react';
+import { useState } from '@hookstate/core';
 import { NavigationContainer } from '@react-navigation/native';
+
+import { AuthStore } from '@store/auth.store';
 
 import { PublicStackNavigator, AuthStackNavigator } from './stacks';
 
 const Navigation = () => {
-  // TODO: extract from global state
-  const isSigned = false;
+  const { isSigned } = useState(AuthStore.state).get();
 
   return (
     <NavigationContainer>
