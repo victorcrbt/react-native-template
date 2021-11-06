@@ -41,6 +41,5 @@ After including a new alias, restart the metro bundler clearing the cache by run
 
 ## TODO
 
-- [] Implement state management lib.
 - [] Reorganize files and file names.
 - [] Extract types from files.
