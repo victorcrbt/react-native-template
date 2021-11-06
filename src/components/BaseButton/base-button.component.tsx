@@ -1,7 +1,7 @@
 import React from 'react';
 import { PressableProps } from 'react-native';
 
-import { Wrapper, ButtonText, IconWrapper } from './BaseButton.styles';
+import { Wrapper, ButtonText, IconWrapper } from './base-button.styles';
 
 type CustomProps = {
   textColor?: string;

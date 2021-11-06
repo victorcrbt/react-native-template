@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef } from 'react';
 import { Animated, Easing } from 'react-native';
 
-import { Wrapper, Icon } from './Spinner.styles';
+import { Wrapper, Icon } from './spinner.styles';
 
 type Props = {
   color?: string;

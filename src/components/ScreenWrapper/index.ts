@@ -1,1 +1,1 @@
-export { ScreenWrapper } from './ScreenWrapper.component';
+export { ScreenWrapper } from './screen-wrapper.component';

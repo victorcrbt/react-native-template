@@ -6,7 +6,7 @@ import { AuthStore } from '@src/store/auth.store';
 import { Alert } from '@components/Alert';
 
 import { Spinner } from '@components/Spinner';
-import { Wrapper, Input, ConfirmButton, LoginIcon } from './SignIn.styles';
+import { Wrapper, Input, ConfirmButton, LoginIcon } from './sign-in.styles';
 
 type State = {
   username: string;

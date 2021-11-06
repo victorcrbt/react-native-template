@@ -7,7 +7,7 @@ import {
   MessageText,
   DismissButtonText,
   ButtonWrapper,
-} from './Alert.styles';
+} from './alert.styles';
 
 type Props = {
   open: boolean;

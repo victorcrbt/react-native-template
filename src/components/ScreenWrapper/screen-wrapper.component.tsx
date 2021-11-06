@@ -1,7 +1,7 @@
 import React from 'react';
 import { ViewProps, StyleProp, ViewStyle, ColorValue } from 'react-native';
 
-import { Wrapper, ContentWrapper } from './ScreenWrapper.styles';
+import { Wrapper, ContentWrapper } from './screen-wrapper.styles';
 
 type CustomProps = {};
 

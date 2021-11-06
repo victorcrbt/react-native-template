@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextInputProps, StyleProp, ViewStyle, TextStyle } from 'react-native';
 
-import { Wrapper, InputLabel, Input, ErrorMessage } from './BaseInput.styles';
+import { Wrapper, InputLabel, Input, ErrorMessage } from './base-input.styles';
 
 type CustomProps = {
   label?: string;

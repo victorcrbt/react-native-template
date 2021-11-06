@@ -1,2 +1,2 @@
-export { PublicStackNavigator } from './PublicStack.navigator';
-export { AuthStackNavigator } from './AuthStack.navigator';
+export { PublicStackNavigator } from './public-stack.navigator';
+export { AuthStackNavigator } from './auth-stach.navigator';
