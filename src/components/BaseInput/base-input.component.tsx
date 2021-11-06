@@ -3,17 +3,7 @@ import { TextInputProps, StyleProp, ViewStyle, TextStyle } from 'react-native';
 
 import { Wrapper, InputLabel, Input, ErrorMessage } from './base-input.styles';
 
-type CustomProps = {
-  label?: string;
-  errorMessage?: string | null;
-  preventLabelCapitalization?: boolean;
-  containerStyles?: StyleProp<ViewStyle>;
-  labelStyles?: StyleProp<TextStyle>;
-};
-
-type Props = TextInputProps & CustomProps;
-
-const BaseInput: React.FC<Props> = ({
+const BaseInput: React.FC<BaseInputComponent.Props> = ({
   label,
   errorMessage,
   preventLabelCapitalization = false,

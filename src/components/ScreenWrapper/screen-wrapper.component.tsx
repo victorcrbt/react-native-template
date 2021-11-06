@@ -1,13 +1,13 @@
 import React from 'react';
-import { ViewProps, StyleProp, ViewStyle, ColorValue } from 'react-native';
+import { ViewStyle, ColorValue } from 'react-native';
 
 import { Wrapper, ContentWrapper } from './screen-wrapper.styles';
 
-type CustomProps = {};
-
-type Props = ViewProps & CustomProps;
-
-const ScreenWrapper: React.FC<Props> = ({ children, style, ...props }) => {
+const ScreenWrapper: React.FC<ScreenWrapperComponent.Props> = ({
+  children,
+  style,
+  ...props
+}) => {
   let backgroundColor: ColorValue | undefined;
 
   if (style && Array.isArray(style) && style[0]) {

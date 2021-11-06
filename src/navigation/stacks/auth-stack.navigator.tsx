@@ -7,11 +7,7 @@ import { AuthStackRoutes } from '@constants/routes.enum';
 // Screens
 import { MainScreen } from '@screens/Main';
 
-type ParamList = {
-  [AuthStackRoutes.MAIN]: undefined;
-};
-
-const Stack = createStackNavigator<ParamList>();
+const Stack = createStackNavigator<AuthStackNavigator.ParamList>();
 
 const AuthStackNavigator = () => (
   <Stack.Navigator screenOptions={authStackScreenOptions}>

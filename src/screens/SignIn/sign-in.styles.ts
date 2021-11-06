@@ -1,7 +1,5 @@
-import React from 'react';
 import styled from 'styled-components/native';
 import MaterialCommunityIcon from 'react-native-vector-icons/MaterialCommunityIcons';
-import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
 import { ScreenWrapper } from '@components/ScreenWrapper';
 import { BaseButton } from '@components/BaseButton';

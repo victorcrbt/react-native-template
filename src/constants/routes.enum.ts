@@ -1,8 +1,8 @@
-enum PublicStackRoutes {
+const enum PublicStackRoutes {
   SIGN_IN = '@public/SIGN_IN',
 }
 
-enum AuthStackRoutes {
+const enum AuthStackRoutes {
   MAIN = '@auth/MAIN',
 }
 

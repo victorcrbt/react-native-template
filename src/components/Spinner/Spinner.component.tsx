@@ -3,10 +3,7 @@ import { Animated, Easing } from 'react-native';
 
 import { Wrapper, Icon } from './spinner.styles';
 
-type Props = {
-  color?: string;
-  size?: number;
-};
+type Props = SpinnerComponent.Props;
 
 export const Spinner: React.FC<Props> = ({ color, size = 24 }) => {
   const spinValue = useRef(new Animated.Value(0)).current;

@@ -1,8 +1,6 @@
 import styled from 'styled-components/native';
 
-type LabelProps = {
-  preventCapitalize: boolean;
-};
+type LabelProps = BaseInputComponent.Styles.LabelProps;
 
 export const Wrapper = styled.View`
   width: 100%;

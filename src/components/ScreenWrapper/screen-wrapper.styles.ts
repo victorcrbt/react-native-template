@@ -1,9 +1,6 @@
 import styled from 'styled-components/native';
-import { ColorValue } from 'react-native';
 
-type WrapperProps = {
-  backgroundColor?: ColorValue;
-};
+type WrapperProps = ScreenWrapperComponent.Styles.WrapperProps;
 
 export const Wrapper = styled.SafeAreaView<WrapperProps>`
   flex: 1;

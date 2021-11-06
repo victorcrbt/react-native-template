@@ -7,11 +7,7 @@ import { PublicStackRoutes } from '@constants/routes.enum';
 // Screens
 import { SignInScreen } from '@screens/SignIn';
 
-type ParamList = {
-  [PublicStackRoutes.SIGN_IN]: undefined;
-};
-
-const Stack = createStackNavigator<ParamList>();
+const Stack = createStackNavigator<PublicStackNavigator.ParamList>();
 
 const PublicStackNavigator = () => (
   <Stack.Navigator screenOptions={publicStackScreenOptions}>

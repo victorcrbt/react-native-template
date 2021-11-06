@@ -8,25 +8,17 @@ import { Alert } from '@components/Alert';
 import { Spinner } from '@components/Spinner';
 import { Wrapper, Input, ConfirmButton, LoginIcon } from './sign-in.styles';
 
-type State = {
-  username: string;
-  password: string;
-};
+type FormState = SignInScreen.FormState;
+type HandleChangeFunctionParams = SignInScreen.HandleChangeFunctionParams;
 
 const SignInScreen: React.FC = () => {
   const { error, hasError, loading } = useHookstate(AuthStore.state).get();
-  const [formState, setFormState] = useState<State>({
+  const [formState, setFormState] = useState<FormState>({
     username: '',
     password: '',
   });
 
-  const handleChange = ({
-    value,
-    fieldName,
-  }: {
-    value: string;
-    fieldName: keyof State;
-  }) => {
+  const handleChange = ({ value, fieldName }: HandleChangeFunctionParams) => {
     setFormState(prevState => ({
       ...prevState,
       [fieldName]: value,
@@ -41,6 +33,7 @@ const SignInScreen: React.FC = () => {
           placeholder="Please, enter your username..."
           value={formState.username}
           onChangeText={value => handleChange({ value, fieldName: 'username' })}
+          autoCapitalize="none"
         />
         <Input
           label="password"

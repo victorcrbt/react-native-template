@@ -9,13 +9,7 @@ import {
   ButtonWrapper,
 } from './alert.styles';
 
-type Props = {
-  open: boolean;
-  onCloseClick(): void;
-  message: string | null;
-};
-
-export const Alert: React.FC<Props> = ({
+export const Alert: React.FC<AlertComponent.Props> = ({
   open,
   onCloseClick,
   message = 'Falha ao executar ação.',

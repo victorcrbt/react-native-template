@@ -3,16 +3,7 @@ import { PressableProps } from 'react-native';
 
 import { Wrapper, ButtonText, IconWrapper } from './base-button.styles';
 
-type CustomProps = {
-  textColor?: string;
-  preventTextCapitalization?: boolean;
-  icon?: React.ReactNode;
-  iconPosition?: 'left' | 'right';
-};
-
-type Props = PressableProps & CustomProps;
-
-const BaseButton: React.FC<Props> = ({
+const BaseButton: React.FC<BaseButtonComponent.Props> = ({
   children,
   textColor,
   preventTextCapitalization = false,

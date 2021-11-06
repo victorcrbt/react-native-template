@@ -1,12 +1,7 @@
 import styled, { css } from 'styled-components/native';
 
-type ButtonTextProps = {
-  preventCapitalize: boolean;
-};
-
-type IconWrapperProps = {
-  iconPosition: 'left' | 'right';
-};
+type ButtonTextProps = BaseButtonComponent.Styles.ButtonTextProps;
+type IconWrapperProps = BaseButtonComponent.Styles.IconWrapperProps;
 
 export const Wrapper = styled.Pressable`
   width: 100%;
