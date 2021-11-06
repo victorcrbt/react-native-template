@@ -30,6 +30,17 @@ or
 npm run ios
 ```
 
+## WHAT IS ALREADY INSTALLED?
+
+1. Styled Components with a theme already defined.
+2. Navigation with React Navigation.
+3. State management with HookState.
+4. Icons with React Native Vector Icons (currently only Material and FontAwesome icons. If there is the necessity to use another package of icons, please refrain to the React Native Vector Icons docs.)
+5. TypeScript
+6. ESLint
+
+From time to time, this template will be updated to add more features that I find useful in a project start.
+
 ## PATH ALIASES
 
 To add a new path alias, simply add the path to the `tsconfig.json` file, in the `paths` object following the pattern of the existing ones.
@@ -38,7 +49,3 @@ The paths will be automatically mapped on the `babel.config.js` file.
 
 After including a new alias, restart the metro bundler clearing the cache by running one of the following commands:
 `yarn start --reset-cache` or `npm run start --reset-cache`.
-
-## TODO
-
-- [] Change the theme definition to match the new theme styles
