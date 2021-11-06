@@ -5,7 +5,8 @@ import { AuthStore } from '@src/store/auth.store';
 
 import { Alert } from '@components/Alert';
 
-import { Wrapper, Input, ConfirmButton } from './SignIn.styles';
+import { Spinner } from '@components/Spinner';
+import { Wrapper, Input, ConfirmButton, LoginIcon } from './SignIn.styles';
 
 type State = {
   username: string;
@@ -49,13 +50,14 @@ const SignInScreen: React.FC = () => {
         />
 
         <ConfirmButton
+          icon={loading ? <Spinner /> : <LoginIcon />}
           onPress={() => {
             AuthStore.handleSignIn({
               username: formState.username,
               password: formState.password,
             });
           }}>
-          {loading ? 'loading' : 'sign in'}
+          sign in
         </ConfirmButton>
       </Wrapper>
 
