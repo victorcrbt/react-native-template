@@ -9,7 +9,7 @@ export const Wrapper = styled.Pressable`
   margin-bottom: ${props => props.theme.spacings.md};
 
   border-radius: ${props => props.theme.borderRadius.md};
-  background: ${props => props.theme.colors.primary.main};
+  background: ${props => props.theme.colors.primary.default.main};
 
   flex-direction: row;
   justify-content: center;
@@ -18,7 +18,7 @@ export const Wrapper = styled.Pressable`
 
 export const ButtonText = styled.Text<ButtonTextProps>`
   font-size: ${props => props.theme.fontSizes.lg};
-  color: ${props => props.theme.colors.primary.contrast};
+  color: ${props => props.theme.colors.primary.default.contrast};
   text-transform: ${props => (props.preventCapitalize ? 'none' : 'uppercase')};
   font-weight: bold;
 `;

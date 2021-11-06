@@ -6,5 +6,5 @@ export const Wrapper = styled(Animated.View)``;
 
 export const Icon = styled(FontAwesomeIcon).attrs(props => ({
   name: 'spinner',
-  color: props.color || props.theme.colors.primary.contrast,
+  color: props.color || props.theme.colors.primary.default.contrast,
 }))``;

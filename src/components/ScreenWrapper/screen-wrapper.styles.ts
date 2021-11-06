@@ -8,13 +8,13 @@ export const Wrapper = styled.SafeAreaView<WrapperProps>`
   background: ${props =>
     props.backgroundColor
       ? (props.backgroundColor as string)
-      : props.theme.colors.background.main};
+      : props.theme.colors.background.default.main};
 `;
 
 export const ContentWrapper = styled.View`
   padding: ${props => props.theme.spacings.sm};
 
-  background: ${props => props.theme.colors.background.main};
+  background: ${props => props.theme.colors.background.default.main};
 
   flex: 1;
 `;

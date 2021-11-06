@@ -3,58 +3,132 @@ import { DefaultTheme } from 'styled-components/native';
 const defaultTheme: DefaultTheme = {
   colors: {
     primary: {
-      main: '#DA4167',
-      dark: '#c0264c',
-      light: '#ea95aa',
-      contrast: '#FFFFFF',
+      default: {
+        main: '#6169FA',
+        contrast: '#FFFFFF',
+      },
+      light: {
+        main: '#ADB1FB',
+        contrast: '#FFFFFF',
+      },
+      dark: {
+        main: '#30337A',
+        contrast: '#FFFFFF',
+      },
     },
     secondary: {
-      main: '#D9B657',
-      dark: '#a68426',
-      light: '#ecdbac',
-      contrast: '#ffffff',
+      default: {
+        main: '#FA7D7A',
+        contrast: '#FFFFFF',
+      },
+      light: {
+        main: '#FBC7C6',
+        contrast: '#444444',
+      },
+      dark: {
+        main: '#C76361',
+        contrast: '#FFFFFF',
+      },
     },
     tertiary: {
-      main: '#365AD9',
-      dark: '#8ba0e9',
-      light: '#1b348d',
-      contrast: '#ffffff',
+      default: {
+        main: '#55FA8A',
+        contrast: '#444444',
+      },
+      light: {
+        main: '#A0FBBD',
+        contrast: '#111111',
+      },
+      dark: {
+        main: '#44C76D',
+        contrast: '#FFFFFF',
+      },
     },
+
     background: {
-      main: '#fdfdfd',
-      dark: '#c5c5c5',
-      light: '#ffffff',
-      contrast: '#444',
+      default: {
+        main: '#F0F0FF',
+        contrast: '#444444',
+      },
+      light: {
+        main: '#FFFFFF',
+        contrast: '#444444',
+      },
+      dark: {
+        main: '#000033',
+        contrast: '#FFFFFF',
+      },
     },
     text: {
-      main: '#333',
-      dark: '#000',
-      light: '#666',
-      contrast: '#fff',
+      default: {
+        main: '#444444',
+        contrast: '#FFFFFF',
+      },
+      light: {
+        main: '#999999',
+        contrast: '#FFFFFF',
+      },
+      dark: {
+        main: '#111111',
+        contrast: '#FFFFFF',
+      },
     },
+
     success: {
-      main: '#0bc163',
-      dark: '#08914a',
-      light: '#9ff9cb',
-      contrast: '#fff',
-    },
-    warning: {
-      main: '#f2a90d',
-      dark: '#da990b',
-      light: '#f7cc6e',
-      contrast: '#ffffff',
+      default: {
+        main: '#1BD14F',
+        contrast: '#FFFFFF',
+      },
+      light: {
+        main: '#82FFA6',
+        contrast: '#444444',
+      },
+      dark: {
+        main: '#0B521F',
+        contrast: '#FFFFFF',
+      },
     },
     danger: {
-      main: '#f74848',
-      dark: '#d30909',
-      light: '#fcacac',
-      contrast: '#ffffff',
+      default: {
+        main: '#FF6354',
+        contrast: '#FFFFFF',
+      },
+      light: {
+        main: '#FFAFA3',
+        contrast: '#444444',
+      },
+      dark: {
+        main: '#80312A',
+        contrast: '#FFFFFF',
+      },
+    },
+    warning: {
+      default: {
+        main: '#F0933C',
+        contrast: '#FFFFFF',
+      },
+      light: {
+        main: '#EDCBAD',
+        contrast: '#444444',
+      },
+      dark: {
+        main: '#BD742F',
+        contrast: '#FFFFFF  ',
+      },
     },
     info: {
-      main: '#139ded',
-      dark: '#0b5e8e',
-      light: '#a0d8f8',
-      contrast: '#ffffff',
+      default: {
+        main: '#4E7ACC',
+        contrast: '#FFFFFF',
+      },
+      light: {
+        main: '#93B7FF',
+        contrast: '#FFFFFF',
+      },
+      dark: {
+        main: '#1346A6',
+        contrast: '#FFFFFF',
+      },
     },
   },
 

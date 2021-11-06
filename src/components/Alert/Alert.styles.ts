@@ -17,7 +17,7 @@ export const ContentWrapper = styled.View`
   min-width: 250px;
   max-width: ${Dimensions.get('screen').width - 64}px;
 
-  background: ${props => props.theme.colors.background.light};
+  background: ${props => props.theme.colors.background.light.main};
   border-radius: ${props => props.theme.borderRadius.default};
 `;
 
@@ -32,7 +32,7 @@ export const MessageText = styled.Text`
 
 export const ButtonWrapper = styled.View`
   border-top-width: 1px;
-  border-top-color: ${props => props.theme.colors.background.dark};
+  border-top-color: ${props => props.theme.colors.background.default.main};
 `;
 
 export const DismissButton = styled.TouchableOpacity`
@@ -42,7 +42,7 @@ export const DismissButton = styled.TouchableOpacity`
 `;
 
 export const DismissButtonText = styled.Text`
-  color: ${props => props.theme.colors.info.main};
+  color: ${props => props.theme.colors.info.default.main};
   font-size: ${props => props.theme.fontSizes.md};
   font-weight: bold;
 
