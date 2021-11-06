@@ -2,7 +2,7 @@
 
 To start using the template, simply click the "**Use this template**" button:
 
-- [] add screenshot
+<img src="./.github/assets/images/use-this-template-example.png" />
 
 It will create a repository using this one as template.
 
@@ -41,5 +41,4 @@ After including a new alias, restart the metro bundler clearing the cache by run
 
 ## TODO
 
-- [] Reorganize files and file names.
-- [] Extract types from files.
+- [] Change the theme definition to match the new theme styles
